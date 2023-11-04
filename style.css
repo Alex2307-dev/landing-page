@@ -1,18 +1,24 @@
 body {
   font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
-  background-color: black;
-  margin: 0 230px;
-  padding: 0;
+  margin: 0;
+  padding: 0 150px;
 }
 
 /* HEADER START */
 
 .header-site {
   height: 540px;
-  background-color: #1f2937;
+  width: 1500;
+  background-color: rgb(3, 3, 3, 80%);
 }
 
-.high-row,
+.high-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 180px;
+}
+
 .down-row {
   display: flex;
   justify-content: space-between;
@@ -20,9 +26,22 @@ body {
   margin: 0 180px;
 }
 
+.logo {
+  display: flex;
+  height: 56px;
+  width: 56px;
+  margin-top: 10px;
+}
+
+.l-name {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header-logo,
 .header-links {
   display: flex;
-  gap: 14px;
+  gap: 16px;
 }
 
 .header-title {
@@ -33,33 +52,29 @@ body {
 
 h1 {
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight: 900;
   color: #f9faf8;
   padding: 0;
   margin: 35px 0 25px 0;
 }
 
-button {
+.button {
   font-weight: 700;
   color: #f9faf8;
-  background-color: #3882f6;
-  border-color: #3882f6;
+  background-color: #07b128;
+  border-color: #09a66d;
   border-radius: 8px;
   padding: 8px 30px;
   margin: 20px 0 0 0;
 }
 
-.photo {
-  height: 260px;
-  width: 500px;
-  margin: 50px 0;
-  border: 2px solid #e5e7eb;
-  border-radius: 8px;
+.header-photo {
+  width: 520px;
+  height: 250px;
 }
 
 ul {
   list-style: none;
-  margin-top: 20px;
 }
 
 a,
@@ -69,4 +84,4 @@ p {
   color: #e5e7eb;
 }
 
-/* HEADER END */
+/* HEADER END MAIN START */
