@@ -16,10 +16,10 @@ body {
   flex: 1;
 }
 
-/* HEADER START */
-
 .header-high {
   background-color: rgb(3, 3, 3, 80%);
+  border: 1px solid rgb(3, 3, 3, 80%);
+  border-radius: 10px;
   position: sticky;
   top: 0;
 }
@@ -52,6 +52,8 @@ body {
 
 .header-down {
   background-color: rgba(3, 3, 3, 80%);
+  border: 1px solid rgb(3, 3, 3, 80%);
+  border-radius: 10px;
 }
 
 .down-row {
@@ -59,8 +61,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* flex-wrap: wrap; */
-  /* flex-shrink: 0; */
   margin: 50px 130px;
 }
 
@@ -88,9 +88,6 @@ h1 {
   margin: 20px 0 0 0;
 }
 
-/* .header-photo {
-} */
-
 .img {
   width: 520px;
   height: 250px;
@@ -108,8 +105,6 @@ p {
   font-size: 18px;
   color: #e5e7eb;
 }
-
-/* HEADER END MAIN START */
 
 .content {
   min-height: 300px;
@@ -135,7 +130,6 @@ p {
   height: 150px;
   border: 5px solid #07b128;
   border-radius: 16px;
-  /* display: flex; */
 }
 
 figcaption {
@@ -149,7 +143,8 @@ figcaption {
 .quote {
   min-height: 400px;
   background-color: rgba(3, 3, 3, 80%);
-  /* margin: 30px 0; */
+  border: 1px solid rgb(3, 3, 3, 80%);
+  border-radius: 10px;
 }
 
 .text-quote {
@@ -171,8 +166,6 @@ figcaption {
   padding: 0;
   margin: 0;
   min-height: 400px;
-  /* border: 5px solid #f9faf8; */
-  /* padding: 80px 330px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -189,7 +182,6 @@ figcaption {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* gap: 50px; */
 }
 
 h4 {
@@ -201,7 +193,6 @@ h4 {
 }
 
 button {
-  /* height: 40px; */
   font-weight: 700;
   font-size: 18px;
   color: #f9faf8;
@@ -214,10 +205,11 @@ button {
 footer {
   height: 100px;
   background-color: rgba(3, 3, 3, 80%);
+  border: 1px solid rgb(3, 3, 3, 80%);
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin: 0 130px; */
 }
 
 span {
