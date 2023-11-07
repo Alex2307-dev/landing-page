@@ -57,11 +57,11 @@ body {
 }
 
 .down-row {
-  height: 450px;
+  min-height: 450px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 130px;
+  margin: 0 130px;
 }
 
 .header-title {
@@ -106,23 +106,23 @@ p {
   color: #e5e7eb;
 }
 
-.content {
-  min-height: 300px;
-  gap: 30px;
-  margin-bottom: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 .info {
-  padding: 20px 0 0 0;
+  padding: 70px 0 0 0;
   margin: 0;
   text-align: center;
   color: #000;
   font-size: 32px;
   font-weight: 900;
+}
+
+.content {
+  min-height: 300px;
+  gap: 30px;
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .square {
